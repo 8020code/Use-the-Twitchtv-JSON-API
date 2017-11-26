@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <title>Twitchtv JSON API</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Baloo+Chettan%7CText+Me+One">
+  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css" integrity="" sha512-DzGtdTlKbrMoGMpz0LigKSqJ+MgtFKxA791PU/q062OlRG0HybNZcTLH7rpDAmLS66Y3esN9yzKHLLbqa5UR3w==""
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="/styles/index.css">
+  <link rel="shortcut icon" href="https://media-elerium.cursecdn.com/avatars/110/961/636386569336368151.ico">
+  <!-- Bootstrap CSS -->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+    crossorigin="anonymous"> -->
+</head>
+
+<body>
+  <header class="container-fluid">
+    <div class="row ">
+      <img class="col-sm-2" src="https://metrouk2.files.wordpress.com/2014/05/twitch-tv-2.jpg">
+      <h1 class="col-sm-10">Twitchtv JSON API</h1>
+    </div>
+  </header>
+  <div class="container-fluid">
+    <div class="row ">
+
+      <aside class="col-sm-4">
+
+        <h4>All channels</h4>
+        <div id="main" class="align-left"></div>
+      </aside>
+
+      <section class="col-sm-4">
+
+        <h4>Featured channels</h4>
+        <div class="card border-dark ">
+          <a class="row " href="https://www.twitch.tv/freecodecamp">
+            <div class="col-sm-2">
+              <img class="rounded m-1 bordd" src="https://static-cdn.jtvnw.net/jtv_user_pictures/freecodecamp-profile_image-d9514f2df0962329-70x70.png"
+                alt="Free Code Camp">
+            </div>
+            <span class="col-sm-5 align-self-center h5">Free Code Camp </span>
+            <span class="col-sm-5 align-self-center h5" id="fcc"></span>
+          </a>
+        </div>
+        <div class="card border-dark ">
+          <a class="row " href="https://www.twitch.tv/esl_sc2">
+            <div class="col-sm-2">
+              <img class="rounded m-1 middle bordd" src="https://static-cdn.jtvnw.net/jtv_user_pictures/esl_sc2-profile_image-d6db9488cec97125-300x300.jpeg"
+                alt="ESL SC2">
+            </div>
+            <span class="col-sm-5 align-self-center h5">ESL SC2 </span>
+            <span class="col-sm-5 align-self-center h5" id="esl"></span>
+          </a>
+        </div>
+        <div id="clips-display"></div>
+        <br>
+
+      </section>
+
+
+      <aside class="col-sm-4">
+        <h4>Offline channels</h4>
+        <div id="off"></div>
+      </aside>
+
+    </div>
+  </div>
+<div class="container" style="margin-bottom: 100px;">
+    <div id="temp"></div>
+
+  </div>
+
+  <footer class="fixed-bottom" id="footer">
+    <h1 class="text-center">Made by
+      <a href="https://codepen.io/heroone">8020code</a>
+    </h1>
+  </footer>
+
+
+
+
+  <!-- Scripts -->
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+    crossorigin="anonymous"></script>
+  <script src="scripts/index.js"></script>
+</body>
+
+</html>

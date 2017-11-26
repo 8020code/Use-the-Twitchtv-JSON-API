@@ -1,0 +1,62 @@
+body {
+  font-family: 'Baloo Chettan', cursive;
+  font-size: 16px;
+  /* background-image: url("https://metrouk2.files.wordpress.com/2014/05/twitch-tv-2.jpg"); */
+  background-size: cover;
+}
+
+li {
+  font-family: 'Text Me One', sans-serif;
+}
+
+header,
+footer {
+  background-color: #333;
+  color: #ddd;
+  padding: 20px;
+  text-align: center;
+}
+
+aside {
+  background-color: rgb(77, 13, 77);
+  /* text-align: center; */
+  padding-top: 40px;
+  color: #ddd;
+}
+
+aside img {
+  width: 100%;
+}
+
+section {
+  background-color: rgb(77, 13, 77);
+  padding-top: 40px;
+  color: #ddd;
+}
+
+
+a {
+  color: rgb(159, 39, 170);
+}
+
+a:hover {
+  color: rgb(218, 172, 223);
+}
+
+
+/* @media (min-width: 768px) {
+  .navbar-brand.abs {
+    position: absolute;
+  }
+} */
+
+.bordd {
+  border: 3px solid rgb(77, 13, 77)!important;
+  height: 42px;
+  width: 42px;
+}
+
+#footer {
+margin-top: 40px;
+
+}
